@@ -1,5 +1,5 @@
 body{
-    background-color:               rgb(218, 200, 177);
+    background-color:               rgb(179, 218, 177);
   
 }
 input{
@@ -28,7 +28,7 @@ button:active{
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(80, 60, 30);
+    color: rgb(56, 172, 77);
     flex-direction: column;
     display: flex;
     align-items: center;
