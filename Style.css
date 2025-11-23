@@ -1,0 +1,45 @@
+body{
+    background-color:               rgb(218, 200, 177);
+  
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(141, 153, 222);
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(101, 86, 168);
+    background-color: rgb(200, 180, 150);
+    cursor: pointer;
+
+    
+}
+button:hover{
+    background-color: rgb(150, 130, 100);
+    color: white;
+}
+button:active{
+    transform: scale(0.98);
+}
+.result{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(80, 60, 30);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+#ul1{
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(49, 116, 64);
+    font-weight: bold;
+    list-style-type: square;
+   
+    text-align: left;
+    width: 200px;
+}
