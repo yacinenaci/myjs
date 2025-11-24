@@ -34,7 +34,8 @@ let b2=document.getElementById("b2");
 b1.addEventListener("click",function(){
    i3.value=Number(i1.value)+Number(i2.value);
    h1.style.color="red";
-   alert("The sum is :"+i3.value);
+  
+   
    localStorage.setItem("name",i3.value);  
 });
 h1.addEventListener("mouseover",function(){
@@ -42,7 +43,9 @@ h1.addEventListener("mouseover",function(){
 });
 b2.addEventListener("click",function(){
     let storedName=localStorage.getItem("name");
-    alert("The stored sum is :"+storedName);
+   setTimeout(function(){
+   alert("The sum is :"+storedName);
+   },500);
 });
 
 ul1.innerHTML+="<li>amine</li>";

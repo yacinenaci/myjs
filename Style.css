@@ -14,6 +14,10 @@ button{
     border: 2px solid rgb(101, 86, 168);
     background-color: rgb(200, 180, 150);
     cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    
+
 
     
 }
