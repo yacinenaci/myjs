@@ -3,12 +3,12 @@ body{
   
 }
 input{
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid rgb(141, 153, 222);
 }
-button{
+button{ 
     padding: 10px;
     border-radius: 5px;
     border: 2px solid rgb(101, 86, 168);
